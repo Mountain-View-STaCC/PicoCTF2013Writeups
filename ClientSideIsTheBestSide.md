@@ -1,3 +1,6 @@
+How Logan solved ClientSideIsTheBestSide
+====================
+
 Even though it has already been solved (I thought is wasn’t) I decided to do the Clients side is the best side problem and since there is no solution I thought I should explain it!
 
 When you click on the link it provides it takes you to a webpage (porley built :P) the ask for a password. There is no way for you to guess the password but if you click inspect element then you’ll see the code behind the “website” and you see this:
