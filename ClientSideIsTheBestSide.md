@@ -1,4 +1,4 @@
-How Logan solved ClientSideIsTheBestSide
+How Nathaniel solved ClientSideIsTheBestSide
 ====================
 
 Even though it has already been solved (I thought is wasn’t) I decided to do the Clients side is the best side problem and since there is no solution I thought I should explain it!
