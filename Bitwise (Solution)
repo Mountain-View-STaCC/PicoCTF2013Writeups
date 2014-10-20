@@ -1,0 +1,27 @@
+How nathan geniusly solved bitwise!!!!!
+
+First off i would like to thank google because this was so hard to solve, also that before i almost broke my computer from frustration i tried doing this on my own using java instead of python.
+
+but since i dont have any original code ill just add comments *(Caleb feel free to edit since i don't know as much python as you)* to the one i found and explain his genius:
+
+
+verify_arr = [193,35,9,33,1,9,3,33,9,225]  //adding the original array(list) 
+
+password =[0,0,0,0,0,0,0,0,0,0] //creating a reference array so that there is somewhere to put the dycrpyted characters
+
+for i in range(10):		//declaring that “i” can only have a length of ten
+for k in range (128):		//declaring that k can only have a length of 128(Just a random
+number… i think :P)
+     if verify_arr[i]==(((k<<5|k>>3)^111)&255):	//taking the numbers from the first array and
+bitshifting them etc.
+            password[i]=chr(k)	//I have no idea
+            break			//Stopping the above function
+key=''				//Declaring key as a variable, i think
+for a in password:		//setting a = to the password array	
+    key+=a			//adding the key variable to a for some reason
+
+print key			//Printing the password
+
+
+		
+
